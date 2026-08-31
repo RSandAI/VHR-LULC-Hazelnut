@@ -6,12 +6,6 @@ The dataset, related source code, and pre-trained model weights will be made ava
 
 ---
 
-## Study Area
-
-The dataset covers four study regions within Sakarya Province — **Akyazı**, **Karasu**, **Hendek**, and **Karasu–Hendek** — totalling approximately 13,595 ha of heterogeneous landscape. Sakarya is one of Turkey's leading hazelnut-producing provinces, holding the third position nationally with ~98,000 tonnes produced from 789,000 decares (~16.35% of the province's total land area).
-
----
-
 ## LULC Classes
 
 Reference masks were produced by Object-Based Image Analysis (OBIA) in eCognition Developer, supported by field surveys, LPIS data, and OpenStreetMap. Nine classes were defined following the CORINE Land Cover nomenclature, with hazelnut orchards assigned a dedicated RGB code.
