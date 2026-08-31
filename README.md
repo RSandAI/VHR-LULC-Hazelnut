@@ -2,7 +2,7 @@
 
 **VHR-LULC-Hazelnut** is a nine-class very high-resolution (VHR) aerial imagery benchmark dataset for land use and land cover (LULC) segmentation, derived from 0.25 m RGB aerial photographs of Sakarya Province, northwestern Türkiye. The dataset introduces a dedicated **hazelnut orchard** class alongside eight general LULC categories and provides a challenging benchmark for distinguishing hazelnut from spectrally similar woody vegetation.
 
-The dataset, related source code, and pre-trained model weights will be made available at [link to be added upon publication].
+
 
 ---
 
