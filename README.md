@@ -8,7 +8,6 @@
 
 ## LULC Classes
 
-Reference masks were produced by Object-Based Image Analysis (OBIA) in eCognition Developer, supported by field surveys, LPIS data, and OpenStreetMap. Nine classes were defined following the CORINE Land Cover nomenclature, with hazelnut orchards assigned a dedicated RGB code.
 
 | Class | RGB Code |
 |:------|:--------:|
