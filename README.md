@@ -74,5 +74,3 @@ Seven deep learning semantic segmentation architectures — spanning convolution
 ## Citation
 
 Please cite our paper if this dataset or the associated code is useful for your research.
-
-*Citation will be added upon publication.*
