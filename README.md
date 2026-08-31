@@ -64,6 +64,12 @@ Seven deep learning semantic segmentation architectures — spanning convolution
 
 > **Abbreviations:** RBC = RandomBrightnessContrast · HF = HorizontalFlip · RC = RandomCrop · PadIfNeeded = Pad to fixed size
 
+**Qualitative segmentation comparison of the six best-performing models on selected test tiles:**
+
+![Qualitative Results](assets/figure_results.png)
+
+*Columns follow the mIoU ranking. MAN = manually digitised ground truth. Swin-B-based models (PyramidMamba, DCSwin, FT-UNetFormer) produce more consistent class boundaries in heterogeneous scenes compared to ResNet-based architectures.*
+
 ---
 
 ## Citation
