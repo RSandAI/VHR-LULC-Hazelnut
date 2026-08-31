@@ -10,8 +10,6 @@ The dataset, related source code, and pre-trained model weights will be made ava
 
 The dataset covers four study regions within Sakarya Province — **Akyazı**, **Karasu**, **Hendek**, and **Karasu–Hendek** — totalling approximately 13,595 ha of heterogeneous landscape. Sakarya is one of Turkey's leading hazelnut-producing provinces, holding the third position nationally with ~98,000 tonnes produced from 789,000 decares (~16.35% of the province's total land area).
 
-Aerial photographs were acquired by the General Directorate of Mapping (HGM) of Türkiye on 30 September 2022 (Karasu, Karasu_Hendek, Hendek) and 22 October 2022 (Akyazı), at 0.25 m spatial resolution in ECW format, and reprojected to WGS 84 / UTM Zone 36N (EPSG:32636).
-
 ---
 
 ## LULC Classes
