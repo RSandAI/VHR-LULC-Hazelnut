@@ -51,15 +51,15 @@ Seven deep learning semantic segmentation architectures — spanning convolution
 
 **Best test-set performance per architecture (sorted by mIoU):**
 
-| Model | Loss | Optimizer | Augmentation | OA | mF1 | mPrec | mRec. | mIoU |
-|:------|:----:|:---------:|:-------------------:|:---:|:---:|:-----:|:-----:|:----:|
-| PyramidMamba | CE | AdamW | No augmentation | 0.7647 | 0.7191 | 0.7257 | 0.7134 | **0.5864** |
-| DCSwin | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7541 | 0.7123 | 0.7176 | 0.7070 | **0.5778** |
-| FT-UNetFormer | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7467 | 0.7007 | 0.7072 | 0.6926 | **0.5636** |
-| BANet | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7419 | 0.6926 | 0.6996 | 0.6858 | 0.5562 |
-| UNetFormer | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7612 | 0.7065 | 0.7032 | 0.7109 | 0.5428 |
-| A2FPN | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7254 | 0.6793 | 0.6845 | 0.6741 | 0.5395 |
-| MANet | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7240 | 0.6730 | 0.6769 | 0.6691 | 0.5358 |
+| Model | Loss | Optimizer | Augmentation | OA | mF1 | mPrec | mRec. | mIoU | Weights |
+|:------|:----:|:---------:|:-------------------:|:---:|:---:|:-----:|:-----:|:----:|:-------:|
+| PyramidMamba | CE | AdamW | No augmentation | 0.7647 | 0.7191 | 0.7257 | 0.7134 | **0.5864** | [⬇ download](https://github.com/RSandAI/VHR-LULC-Hazelnut/releases/download/v1.0/pyramidmamba_best_model.pth) |
+| DCSwin | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7541 | 0.7123 | 0.7176 | 0.7070 | **0.5778** | [⬇ download](https://github.com/RSandAI/VHR-LULC-Hazelnut/releases/download/v1.0/dcswin_best_model.pth) |
+| FT-UNetFormer | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7467 | 0.7007 | 0.7072 | 0.6926 | **0.5636** | [⬇ download](https://github.com/RSandAI/VHR-LULC-Hazelnut/releases/download/v1.0/ft_unetformer_best_model.pth) |
+| BANet | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7419 | 0.6926 | 0.6996 | 0.6858 | 0.5562 | [⬇ download](https://github.com/RSandAI/VHR-LULC-Hazelnut/releases/download/v1.0/banet_best_model.pth) |
+| UNetFormer | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7612 | 0.7065 | 0.7032 | 0.7109 | 0.5428 | [⬇ download](https://github.com/RSandAI/VHR-LULC-Hazelnut/releases/download/v1.0/unetformer_best_model.pth) |
+| A2FPN | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7254 | 0.6793 | 0.6845 | 0.6741 | 0.5395 | [⬇ download](https://github.com/RSandAI/VHR-LULC-Hazelnut/releases/download/v1.0/a2fpn_best_model.pth) |
+| MANet | Focal | Adam | RBC+HF+RC+PadIfNeeded | 0.7240 | 0.6730 | 0.6769 | 0.6691 | 0.5358 | [⬇ download](https://github.com/RSandAI/VHR-LULC-Hazelnut/releases/download/v1.0/manet_best_model.pth) |
 
 > **Abbreviations:** RBC = RandomBrightnessContrast · HF = HorizontalFlip · RC = RandomCrop · PadIfNeeded = Pad to fixed size
 
